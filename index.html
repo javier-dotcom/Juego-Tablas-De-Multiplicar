@@ -23,10 +23,14 @@
             <button id="iniciar">Iniciar Juego</button>
         </div> -->
         <div id="configuracion">
-            <label for="ejercicios">Cantidad de ejercicios:</label>
-            <input type="number" id="ejercicios" value="10" min="1" max="20">
+            <p>Selecciona la cantidad de ejercicios:</p>
+            <div id="ejercicios">
+                <button class="ejercicios-btn" data-ejercicios="5">5 Ejercicios</button>
+                <button class="ejercicios-btn" data-ejercicios="8">8 Ejercicios</button>
+                <button class="ejercicios-btn" data-ejercicios="10">10 Ejercicios</button>
+            </div>
         
-            <p>Selecciona la dificultad:</p>
+            <p>Selecciona la dificultad y dale a Iniciar:</p>
             <div id="dificultad">
                 <button class="dificultad-btn" data-tiempo="6">Fácil (6s)</button>
                 <button class="dificultad-btn" data-tiempo="5">Medio (5s)</button>

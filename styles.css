@@ -90,3 +90,8 @@ button.opcion {
     background-color: #007bff;
     color: white;
 }
+.ejercicios-btn.seleccionado,
+.dificultad-btn.seleccionado {
+    background-color: #007bff;
+    color: white;
+}
