@@ -20,6 +20,7 @@ body {
 
 .oculto {
     display: none;
+    background-color: aliceblue;
 }
 
 .contador {
@@ -56,6 +57,9 @@ button.opcion {
 #mensaje {
     font-size: 18px;
     color: #28a745;
+    background-color: aliceblue;
+    border-radius: 6PX;
+    padding: 4px;
 }
 /* Animación de entrada desde la izquierda */
 .entrada-izquierda {
